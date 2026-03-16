@@ -1,51 +1,69 @@
-# Netflix-data-analysis
 
-Dive into a comprehensive **data science project** as we analyze **Netflix data from start to finish**!
+## Netflix Data Analysis
 
-## 🔍 Project Overview
+This project presents a complete **data science workflow** where I analyze a Netflix dataset to uncover meaningful patterns in its content library.
 
-This project explores Netflix datasets to uncover insights about content, trends, and recommendations. It involves data cleaning, exploratory analysis, and visualization to make sense of the data.
+### Project Overview
 
-## ✅ Key Steps
+The objective of this project is to understand how Netflix’s content strategy has evolved over time. Using real-world data, I transformed raw information into clear visual insights by performing data cleaning, exploration, and visualization.
 
-1. **Data Collection & Cleaning**
+### Workflow
 
-   * Loaded raw Netflix dataset (`mymoviedb.csv`)
-   * Handled missing values and formatted data
+#### 1️⃣ Data Cleaning
 
-2. **Exploratory Data Analysis (EDA)**
+* Processed the `mymoviedb.csv` dataset
+* Handled missing values
+* Standardized date formats
+* Cleaned and organized categorical data for accurate analysis
 
-   * Examined movie/TV show distribution by genre, country, and release year
-   * Identified patterns in content types and trends over time
+#### 2️⃣ Exploratory Data Analysis
 
-3. **Visualization**
+* Compared the distribution of **Movies vs TV Shows**
+* Identified the **most popular genres**
+* Analyzed content production trends across **years**
+* Explored country-wise contribution to Netflix’s library
 
-   * Created insightful plots with **Matplotlib** and **Seaborn**
-   * Showed genre popularity, release year trends, and more
+#### 3️⃣ Data Visualization
 
-## 📂 Files in this Repository
+* Created visual insights using:
 
-* `movie_Data_Analysis.ipynb` → Jupyter Notebook with full analysis
-* `mymoviedb.csv` → Dataset used for the project
+  * **Matplotlib**
+  * **Seaborn**
+* Built charts to clearly present:
 
-## 🛠️ Tech Stack
+  * Genre popularity
+  * Yearly release trends
+  * Content type distribution
 
-* **Python** (NumPy, Pandas, Matplotlib, Seaborn)
-* **Jupyter Notebook**
-* 
+### Repository Structure
 
-1. Install dependencies:
+* `movie_Data_Analysis.ipynb` — Main Jupyter Notebook containing code and analysis
+* `data/mymoviedb.csv` — Source dataset
+* `images/` — Exported visualizations of key findings
 
-   ```bash
-   pip install numpy pandas matplotlib seaborn
-   ```
+### Tech Stack
 
-  
-2. Open the notebook:
+* **Python**
 
-   ```bash
-   jupyter notebook movie_Data_Analysis.ipynb
-   ```
+  * NumPy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+* **Jupyter Notebook** for interactive analysis
 
+### Getting Started
 
+Install the required libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn
+```
+
+Run the notebook:
+
+```bash
+jupyter notebook Notebook/movie_Data_Analysis.ipynb
+```
+
+---
 
